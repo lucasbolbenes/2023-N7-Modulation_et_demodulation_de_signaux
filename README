@@ -1,0 +1,20 @@
+Le projet fonctionne ainsi :
+
+- principal.m doit être utilisé pour l'exécution, il contient les variables nécessaires et fait appel aux fonctions :
+	- modulateur.m
+	- demodulateur_filtrage.m
+	- demodulateur_V21_synch_ideale.m
+	- demodulateur_V21_erreur_synch.m
+	- ajout_bruit.m
+	
+	Une variable demodulation_choisie permet de choisir la démodulation utilisée.
+	- 0 : demodulation par filtrage
+	- 1 : demodulation V21 synchronisation idéale
+	- 2 : demodulation V21 erreur de synchronisation 
+
+- recuperation_image.m est un second fichier principal permettant de récupérer l'image mystere.
+Les fichiers représentant les portions d'images étaient trop grands pour être inclus dans l'archive.
+Il faut donc les rajouter, et uniquement ces derniers, dans le répertoire "exemple_image".
+
+
+	
